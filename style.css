@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 50px;
+    
+  
+    
+  
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+    border: 1px solid #f7f7f7;
+  }
+  
+  #banner {
+    background-image: linear-gradient(to bottom, #ff7f50, #ff6347);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+    
+    
+  }
+  #banner h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #banner p {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  #banner .btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #ffc13c;
+    color: #333;
+    text-decoration: none;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+  }
+  #banner .btn:hover {
+    background-color: #fff;
+  }
+  #about {
+    background-color:#fff;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  #about h2 {
+      color: #333;
+      font-size: 35px;
+      margin-bottom: 20px;
+      margin-left: 15px;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  .profile-image {
+    width: 190px;
+    border-radius: 50%;
+    margin-right: 32px;
+  }
+  .bio h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .bio p {
+    font-size: 16px;
+    color: #777;
+  }
+   .bio .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #393d3d;
+    color: #fffefe;
+    text-decoration: none;
+  
+  
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bio .btn:hover {
+    background-color: #cacd95;
+    border: 2px solid black;
+  }
+  #projects {
+    background-color:#f8ecec;
+    padding: 50px 0;
+  }
+  
+  #projects h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .project-image {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-right: 30px;
+  }
+  
+  .project-info {
+    flex-grow: 1;
+  }
+  
+  .project-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .project-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+  
+  
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-info .btn:hover {
+    background-color: #fff;
+  }
+  #contact {
+    background-color: #333;
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .contact-info i {
+    font-size
+  
+  : 36px;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info h3 {
+    color: #ffd700;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .socialmedia{
+    height: 75px;
+    background-color: #3d4447;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    height: 10px;
+  
+    align-items: center;
+   
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+   text-align: center;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 15%;
+  
+  
+  }
+  .fa-instagram {
+    background: #972727da;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15%;
+  
+    
+  }
